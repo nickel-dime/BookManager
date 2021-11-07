@@ -14,7 +14,7 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route('/ping', methods=['GET'])
 def ping_pong():
-    return "<h2>YOU ARE A DEVILS</h2>"
+    return "<h2>YOU  A DEVILS</h2>"
 
 
 if __name__ == "__main__":
